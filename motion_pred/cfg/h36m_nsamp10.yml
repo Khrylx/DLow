@@ -1,0 +1,30 @@
+nz: 128
+t_his: 25
+t_pred: 100
+lambda_v: 1000
+beta: 0.1
+vae_specs:
+  rnn_type: gru
+  x_birnn: false
+  e_birnn: false
+  use_drnn_mlp: true
+vae_lr: 1.e-3
+batch_size: 64
+num_vae_epoch: 500
+num_vae_epoch_fix: 100
+num_vae_data_sample: 5000
+
+nk: 10
+dlow_batch_size: 64
+d_scale: 100
+lambda_j: 25
+lambda_recon: 2.0
+dlow_lr: 1.e-4
+dlow_specs:
+  model_name: NFDiag
+  rnn_type: gru
+  nh_mlp: [1024, 512]
+  x_birnn: false
+num_dlow_epoch: 500
+num_dlow_epoch_fix: 100
+num_dlow_data_sample: 5000
