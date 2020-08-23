@@ -9,7 +9,7 @@ Ye Yuan, Kris Kitani
 [[website](https://www.ye-yuan.com/dlow)] [[paper](https://arxiv.org/pdf/2003.08386.pdf)] [[talk](https://youtu.be/c45ss6Tcb2A)] [[summary](https://youtu.be/nVYGHnRB1_M)] [[demo](https://youtu.be/64OEdSadb00)]
 
 # Installation 
-### Dataset
+### Datasets
 * Please follow the data preprocessing steps ([DATASETS.md](https://github.com/facebookresearch/VideoPose3D/blob/master/DATASETS.md)) inside the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) repo. Place the prepocessed data ``data_3d_h36m.npz`` (Human3.6M) and ``data_3d_humaneva15.npz`` (HumanEva-I) under the ``data`` folder.
 ### Environment
 * **Tested OS:** MacOS, Linux
