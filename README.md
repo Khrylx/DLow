@@ -61,7 +61,7 @@ python motion_pred/eval.py --cfg h36m_nsamp50 --mode stats
 
 
 # Citation
-If you find our work useful in your research, please consider citing our paper [DLow](https://www.ye-yuan.com/dlow):
+If you find our work useful in your research, please cite our paper [DLow](https://www.ye-yuan.com/dlow):
 ```
 @inproceedings{yuan2020dlow,
   title={Dlow: Diversifying latent flows for diverse human motion prediction},
